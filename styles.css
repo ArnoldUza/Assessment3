@@ -94,3 +94,36 @@ footer {
      text-align: right;
      font-style: italic;
 }
+
+@media (max-width: 480px) {
+   nav {
+    float: none;
+    position: relative;
+    width: 100%;
+    margin: 0 0 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+  }
+
+  nav a {
+    color: white;
+    margin-bottom: 0;
+  }
+
+  #wrapper {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .books {
+    grid-template-columns: auto auto;
+    gap: 16px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+}
